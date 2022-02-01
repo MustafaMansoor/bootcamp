@@ -33,4 +33,4 @@ jobs:
       - name: installing surge
         run: npm install --globa surge
       - name: deploying using surge
-        run: surge ./ consider.surge.sh --token ${{secrets.token}}
+        run: surge ./ consider.surge.sh --token ${{ secrets.CONSIDER }}
